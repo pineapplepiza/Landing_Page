@@ -17,3 +17,29 @@ ul {
     display: flex;
     gap: 16px;
 }
+
+
+.rectangles {
+    display: flex;
+}
+
+.rec1 {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex: 1;
+}
+
+.rec1-word1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    width: 650px
+}
+
+.rec2-word2 {
+    width: 500px;
+}
