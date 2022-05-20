@@ -21,7 +21,10 @@ ul {
 
 .rectangles {
     display: flex;
+    flex-direction: column;
 }
+
+/* RECTANGLE 1 */
 
 .rec1 {
     display: flex;
@@ -33,13 +36,66 @@ ul {
     flex: 1;
 }
 
-.rec1-word1 {
-    font-size: 48px;
-    font-weight: bold;
-    text-align: left;
-    width: 650px
+.rec1-left {
+    
 }
 
-.rec2-word2 {
-    width: 500px;
+.rec1-word1 {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: left;
+    width: 650px;
+    margin-bottom: 8px;
+}
+
+.rec1-word2 {
+    width: 480px;
+    margin-bottom: 10px;
+}
+
+/* RECTANGLE 2 */
+
+.rec2 {
+    padding: 30px;
+}
+
+.rec2-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.rec2-boxes {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inside-box {
+    width: 166px;
+    
+}
+
+img {
+    width: 150px;
+    padding: 8px;
+}
+
+.texta {
+    text-align: center;
+}
+
+/* RECTANGLE 3 */
+
+.rec3 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
 }
