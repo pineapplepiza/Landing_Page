@@ -92,10 +92,41 @@ img {
 /* RECTANGLE 3 */
 
 .rec3 {
-    padding: 30px;
+    padding: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
+}
+
+.rec3-text2, .rec3-text1 {
+    font-size: 36px;
+    font-style: italic;
+    color: 31F2937;
+}
+
+#picture1 {
+    width: 400px;
+    height: auto;
+}
+
+.rec4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.rec40 {
+    padding: 50px;
+    display: flex;
+    background-color: #3882F6;
+}
+
+.rec4-left {
+    flex-direction: column;
+    display: flex;
+    color: white;
 }
