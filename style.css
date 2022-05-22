@@ -5,26 +5,34 @@
 
 .Header {
     display: flex;
-    background-color: #1F2937;
+    background-color: dodgerblue;
     color: white;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 16px;
     
 }
 
 .header-left {
+    display: flex;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 20px;  
+    gap: 10px;  
+}
+
+#g {
+    width: auto;
+    height: 28px;
 }
 
 .header-right {
-    margin-left: 470px;
+    margin-right: 20px;
 }
 
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 ul {
@@ -43,7 +51,7 @@ ul {
 
 .rec1 {
     display: flex;
-    background-color: #1F2937;
+    background-color: dodgerblue;
     color: white;
     justify-content: center;
     align-items: center;
@@ -53,7 +61,7 @@ ul {
 
 .rec1-left {
     margin-right: 90px;
-    flex-basis: 400px; /* Got this from example */
+    flex-basis: 480px; /* Got this from example */
 }
 
 .rec1-word1 {
@@ -61,12 +69,12 @@ ul {
     font-weight: bolder;
     text-align: left;
     /*width: 650px;*/
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .rec1-word2 {
     /*width: 480px;*/
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 /* RECTANGLE 2 */
@@ -115,17 +123,31 @@ ul {
 
 .rec3 {
     padding: 80px;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #E5E7EB;
 }
 
+.rec30 {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
 .rec3-text2, .rec3-text1 {
     font-size: 36px;
     font-style: italic;
     color: 31F2937;
+}
+
+.rec3-text2 {
+    display: flex;
+    /* align-items: flex-end; */
+    /* width: 550px; */
+    justify-content: flex-end;
+    margin-top: 8px;
 }
 
 #picture1 {
@@ -166,7 +188,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937; 
+    background-color: dodgerblue; 
     color: white;
     padding: 16px;
 }
